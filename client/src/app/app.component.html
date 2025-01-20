@@ -1,0 +1,20 @@
+<div>
+  <div class="w-full pb-10 flex gap-3 px-10 pt-3 bg-red-300">
+    <h1 class="text-2xl">Simple Form</h1>
+    <nav class="flex flex-col">
+      <ul>
+        <li class="underline text-blue-600"><a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page">Add New Customer</a></li>
+        <li class="underline text-blue-600"><a routerLink="/search" routerLinkActive="active" ariaCurrentWhenActive="page">Search Customers</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="px-10 pt-2">
+    <router-outlet />
+  </div>
+  <div class="mb-8 h-12">
+    <footer class="bg-gray-200 text-center text-xs p-3 fixed bottom-0 w-full">Made by Scott Harrison with Angular</footer>
+  </div>
+</div>
+
+
+
